@@ -1,4 +1,4 @@
-/************ Custom Font ************/
+
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -15,7 +15,6 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
 * {
   margin: 0;
   padding: 0;
@@ -618,9 +617,5 @@ our entire lets connect button styles */
 
 :root{
   --main-color:#647bff;
-  --body-color:#090a1a;
-  --container-color:#171b3c;
-  --heading-color:#222231;
-  --box-color:#0d0f26;
   --bg-color:#fff;
 }
