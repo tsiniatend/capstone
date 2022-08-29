@@ -1,6 +1,6 @@
 import Heading from "../Heading";
 import styles from "./styles.module.css";
-import profile from "./selfie.jpeg";
+
 
 function About() {
 	return (
@@ -18,7 +18,7 @@ function About() {
 				<div className={styles.right}>
 					<img
 					
-						src={profile}
+						src="images/selfie.jpeg"
 						alt="profile"
 						className={styles.profile_img}
 					/>

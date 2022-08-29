@@ -60,7 +60,7 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                  <a href="#"><img src={navIcon1} alt="" /></a>
+                  <a href="https://www.linkedin.com/in/tsiniate-endalkachew/" rel="noreferrer" target="_blank"><img src={navIcon1} alt="" /></a>
 
                   
                 </div>
