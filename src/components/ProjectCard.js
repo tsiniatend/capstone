@@ -3,6 +3,7 @@ import 'boxicons';
 
 
 export const ProjectCard = ({ title, description, imgUrl,  linkUrl }) => {
+    console.log(description)
     return (
         <Col sm={12} md={4}>
             <div className="proj-imgbx">
@@ -10,10 +11,11 @@ export const ProjectCard = ({ title, description, imgUrl,  linkUrl }) => {
                 <div className="proj-txtx">
                     <h4>{title}</h4>
                     <span>{description}</span>
-                    <div class="portfolio-overlay">
+                    <div className="portfolio-overlay">
            
-            <a href="">
-              <i class="bx bx-link-alt"></i>
+           
+            <a href= {linkUrl}  rel="noreferrer" target="_blank" >
+              <i className="bx bx-link-alt"></i>
             </a>
           </div>
                 </div>

@@ -18,11 +18,13 @@ export const Projects = () => {
         title: "Gateway Project",
         description: "Design & Development",
         imgUrl: projImg1,
+        linkUrl: "https://tsiniatend.github.io/gatewayre/",
       },
       {
         title: "Midterm Portfolio",
         description: "Proggression Check",
         imgUrl: projImg2,
+        linkUrl: "https://tsiniatend.github.io/portfolio/",
       },
     ];
     
@@ -32,11 +34,13 @@ export const Projects = () => {
           title: "Hope Hacks",
           description: "Addressing Oppresion",
           imgUrl: projImg4,
+          linkUrl: "https://main.dmaslsmzlhbs2.amplifyapp.com/index.html",
         },
         {
           title: "Netflix Redesign ",
           description: "Agile Methodology",
           imgUrl: projImg5,
+          linkUrl: "https://main.d1zo0b1ozl1ups.amplifyapp.com/gallery",
         },
     ];
     
@@ -45,6 +49,7 @@ export const Projects = () => {
           title: "E-commerce Project",
           description: "Full Stack Development",
           imgUrl: projImg3,
+          linkUrl: "https://main.d18ffttlqm3i6s.amplifyapp.com",
         }
     ];
     return (
