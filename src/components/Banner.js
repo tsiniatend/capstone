@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import "animate.css";
 import TrackVisibility from 'react-on-screen';
-import headerImg from "../assets/img/header-img.svg";
+
 import jump from "../assets/img/jump.png"
 
 export const Banner = () => {

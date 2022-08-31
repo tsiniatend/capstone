@@ -17,8 +17,7 @@ function About() {
 				</div>
 				<div className={styles.right}>
 					<img
-					
-						src="images/selfie.jpeg"
+						src="images/headshot.jpeg"
 						alt="profile"
 						className={styles.profile_img}
 					/>
