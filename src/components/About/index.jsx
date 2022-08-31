@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 function About() {
 	return (
-		<section id="about">
+		<section id="about%20me">
 			<Heading heading="About Me" />
 			<div className={styles.container}>
 				<div className={styles.left}>
@@ -17,7 +17,7 @@ function About() {
 				</div>
 				<div className={styles.right}>
 					<img
-						src="images/headshot.jpeg"
+						src="images/headshot.png"
 						alt="profile"
 						className={styles.profile_img}
 					/>
