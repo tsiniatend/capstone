@@ -4,8 +4,7 @@
 
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
-import contactImg1 from "../assets/img/naruto.png";
+
 import contactHunt from "../assets/img/contact.png"
 
 export const Contact = () => {
@@ -59,7 +58,7 @@ const handleSubmit = async (e) => {
             <img src={contactHunt} alt="Contact Us"></img>
         </Col>
         <Col md={6}>
-            <h2>Get In Touch </h2>
+            <h2>Connect With Me! </h2>
             <form onSubmit={handleSubmit}>
                 <Row>
                     <Col sm={6} className="px-1">
